@@ -1,0 +1,107 @@
+1 transform
+
+1. rotate
+2. scale
+3.translate(X,Y)
+translateX(x)
+translateY(y)
+it is used to move object, without disturbing other object.
+-------------------------------------------------------------------------------------------------------------------------------------------------25-oct
+
+2 Flex
+
+1.flex-direction- row, column, row-reverse, column-reverse.
+2.flex-wrap- wrap, no-wrap. // boxs come in next line
+3.flex-flow - dir wrap;
+4. justify-content- center, space-around, space-evently, space-between;
+5. align-content - center, space-around, space-evently, space-between, flex-end, flex-start;
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+3. Pseudo classes (:)
+:first-child
+:last-child
+:nth-child()//odd//even//third child etc//eqvation
+:nth-last-child()
+:only-child
+:not(#id)
+
+a:visited // after clivk it , it will active it property
+a:link
+a:active
+:target         - work with links
+
+-----------------------------------------------------------------------------------------------------------------------------
+4 .Attribute selector
+Syntax:
+tag selectors[attri="value"]
+
+2.Decendent tag
+syntax
+tag,id,class  tag
+{
+}
+
+ ex id p
+{
+}
+
+
+3. sibling tag
+h2 + p
+{
+
+}
+-----------------------------------------------------------------------------------------------------------------------------
+5. Overflow
+
+overflow: scroll, auto;
+-----------------------------------------------------------------------------------------------------------------------------
+6. Animation
+
+			animation-name: box;
+			animation-duration: 4s;
+			animation-iteration-count:infinite ; // for continuty
+
+		@keyframes box{
+		50%
+		{
+			background-color: pink;
+		}
+
+		100%
+		{
+			background-color: orange;
+		}
+-----------------------------------------------------------------------------------------------------------------------------
+7. Display, Visibility
+
+Display:none; hide the content and the space
+visibility:collapse;  hide the content , space remain there
+----------------------------------------------------------------------------------------------------------------------------
+8. Media
+
+@media screen and (max-width: 1024px )
+		{
+			body{
+				background-color: green;
+			}
+
+			
+		}
+
+		@media screen and (max-width: 1366px )
+		{
+			h1{
+				font-size: 50px;
+				}
+
+			
+		}
+
+-----------------------------------------------------------------------------------------------------------------------------
+9. Position
+
+position: realtive; act for the present 
+position:absolute;
+
+
